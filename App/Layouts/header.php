@@ -21,9 +21,9 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index">Home</a></li>
-                <li><a href="about">About Us</a></li>
-                <li class="has-children">
+                <li class="index"><a href="index">Home</a></li>
+                <li class="about"><a href="about">About Us</a></li>
+                <li class="service has-children"> 
                   <a href="service">Services</a>
                   <ul class="dropdown">
                     <li><a href="#">Air Freight</a></li>
@@ -33,9 +33,9 @@
                     <li><a href="#">Storage</a></li>
                   </ul>
                 </li>
-                <li><a href="industry">Industries</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li class="industry"><a href="industry">Industries</a></li>
+                <li class="blog"><a href="blog">Blog</a></li>
+                <li class="contact"><a href="contact">Contact</a></li>
               </ul>
             </nav>
           </div>

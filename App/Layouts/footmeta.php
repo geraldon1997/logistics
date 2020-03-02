@@ -13,6 +13,25 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
-    
+
+  <script>
+    (function(){
+      var url = window.location.pathname;
+      var current = url.replace('/', '');
+      var previous = document.referrer;
+      var prev = previous.replace(window.origin + '/', '');
+
+      if (current === '' && prev === '') {
+        $('.index').addClass('active');
+      } else if (prev !== '' && current !== '') {
+        $('.' + current).addClass('active');
+        $('.' + prev).removeClass('active');
+      } else if (prev === '' && current !== '') {
+        $('.' + current).addClass('active');
+      }
+      
+    })();
+  </script>
+
   </body>
 </html>
