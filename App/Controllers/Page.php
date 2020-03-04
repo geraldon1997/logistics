@@ -3,31 +3,31 @@ namespace App\Controllers;
 
 class Page
 {
-    public function index()
+    public static function index()
     {
         include_once 'App/Views/index.html';
     }
-    public function about()
+    public static function about()
     {
         include_once 'App/Views/about.html';
     }
-    public function blog()
+    public static function blog()
     {
         include_once 'App/Views/blog.html';
     }
-    public function contact()
+    public static function contact()
     {
         include_once 'App/Views/contact.html';
     }
-    public function service()
+    public static function service()
     {
         include_once 'App/Views/services.html';
     }
-    public function industry()
+    public static function industry()
     {
         include_once 'App/Views/industries.html';
     }
-    public function error()
+    public static function error()
     {
         include_once 'App/Views/404.html';
     }
